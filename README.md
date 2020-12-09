@@ -13,3 +13,7 @@ Las comprobaciones que hace es comprobar que sea una imagen, que sea un tipo de 
 ## Pregunta 6
 
 He añadido el nuevo campo y he actualizado el método update de la clase product para incluir el nuevo campo.
+
+# El nombre del servidor remoto para poder ver esta página es:
+
+[jsamos.sytes.net](http://jsamos.sytes.net/crud-opp)
