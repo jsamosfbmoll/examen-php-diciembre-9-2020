@@ -9,3 +9,7 @@ Para añadir el símbolo del dólar en el código ha bastado con añadir `\$`, l
 La imagen se guarda en la base de datos guardando solo el nombre de esta, para mostrala se busca el nombre de la imagen que se necesita y la busca en el directorio donde se encuentren las imagenes.
 
 Las comprobaciones que hace es comprobar que sea una imagen, que sea un tipo de imagen permitido (jpg, jpeg, ...), que la imagen no existía previamente, que la imagen no es demasiado grande y que la carpeta *uploads* existe. En caso de que la carpeta *uploads* no existiera la crearía.
+
+## Pregunta 6
+
+He añadido el nuevo campo y he actualizado el método update de la clase product para incluir el nuevo campo.

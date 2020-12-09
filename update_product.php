@@ -56,7 +56,7 @@ if($_POST){
 }
 ?>
   
-<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"] . "?id={$id}");?>" method="post">
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"] . "?id={$id}");?>" method="post" enctype="multipart/form-data">
     <table class='table table-hover table-responsive table-bordered'>
   
         <tr>
@@ -101,6 +101,11 @@ echo "</select>";
 ?>
             </td>
         </tr>
+
+        <tr>
+    <td>Photo</td>
+    <td><input type="file" name="image" /></td>
+</tr>
   
         <tr>
             <td></td>
